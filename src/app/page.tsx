@@ -1,9 +1,9 @@
-import { Button } from '@nextui-org/button'
+import { Button } from '@/components/ui/button'
 
 export default function Home() {
   return (
     <div>
-      <Button color="primary">Click me</Button>
+      <Button>Click me</Button>
     </div>
   )
 }
